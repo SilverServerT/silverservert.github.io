@@ -1,0 +1,43 @@
+* {
+    font-family: system-ui;
+}
+
+.card {
+    background-color: #0066aa;
+    background-position-y: 90% !important;
+    transition: 0.2s cubic-bezier(0.65, 0.05, 0.36, 1) all;
+}
+
+.card:hover {
+    background: #059bff;
+    box-shadow: 0px 0px 50px #059bff;
+    transform: scale(1.1);
+}
+
+.column>h2 {
+    color: white;
+    font-size: 1.3em;
+}
+
+.column {
+    margin: 5px;
+    border-radius: unset;
+}
+
+body {
+    background: linear-gradient(0deg, #005994, #012842);
+    background-color: unset;
+}
+
+#info {
+    display: none;
+}
+
+div#mainmenu {
+    margin-top: 20vh;
+}
+
+#header {
+    padding: 7px;
+    background-color: #191919;
+}
